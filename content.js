@@ -1,16 +1,13 @@
-/*
-var className = $('th.ddlabel:nth-child(1)').text();
-alert('Class: ' + className);
-console.log(className);
-*/
-
 $("tr:nth-child(1)").each(function (index) {
-    if (index == 2) alert('Class : ' + $(this).html());
+    var str = $(this).html();
+    var clean = str.replace(/(<th[^>]*>|<\/th>|<br>)/g, "");
+    
+    if (index == 2) alert('Class : ' + clean);
 });
 
-
-/*$(document).on("click", ".btn", function (e) {    
-    $('.content > table td').each(function(index){
-        if(index == 4) alert($(this).text());
-    });
-});*/
+$("td:nth-child(n)").each(function (index) {
+    var str = $(this).html();
+    var clean = str.replace(/(<th[^>]*>|<\/th>|<br>)/g, "");
+    
+    if (index == 10) alert('Seats : ' + str);
+});
