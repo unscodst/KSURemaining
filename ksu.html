@@ -1,0 +1,53 @@
+<!doctype html>
+<!--
+This page is shown when the extension button is clicked, because the
+"browser_action" field in manifest.json contains the "default_popup" key with
+value "popup.html".
+-->
+<html>
+    <head>
+        <title>Getting Started Extension's Popup</title>
+        <style>
+            body {
+                font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+                font-size: 100%;
+            }
+
+            #format{
+                width: 300px;
+            }
+
+            #list{
+                list-style: none;
+            }
+        </style>
+        <script src="url.js"></script>
+    </head>
+    <body>
+        <div id="format">
+
+            <p>Please input the CRN for the class you want.
+                <a href="">Click here</a> for an tutorial of how to get the CRN for the class.            
+            </p>
+            <form>
+                <ul id="list">
+                    <li>Class 1: <input name="class1" type="text" placeholder="CRN" id="c1"></li>
+                    <li>Class 2: <input name="class2" type="text" placeholder="CRN" id="c2"></li>
+                    <li>Class 3: <input name="class3" type="text" placeholder="CRN" id="c3"></li>
+                    <li>Class 4: <input name="class4" type="text" placeholder="CRN" id="c4"></li>
+                    <li>Class 5: <input name="class5" type="text" placeholder="CRN" id="c5"></li>
+                    <li>Class 6: <input name="class6" type="text" placeholder="CRN" id="c6"></li>
+                    <li>Class 7: <input name="class7" type="text" placeholder="CRN" id="c7"></li>
+                    <li>Class 8: <input name="class8" type="text" placeholder="CRN" id="c8"></li>
+                    <br>
+                    <input type="reset" name="reset" value="Reset">
+                    <input type="submit" name="submit" value="Submit" onclick="OpenPage()">
+
+                </ul>
+            </form>
+            
+            <p id="displayURL"></p>
+        </div>
+    </body>
+</html>
+
