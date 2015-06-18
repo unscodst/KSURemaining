@@ -1,0 +1,8 @@
+function showIndex() {
+       var index_url = "/index.html";
+       chrome.tabs.create({
+       url: index_url
+    });
+ }
+
+document.getElementById('index').addEventListener("click", showIndex);
