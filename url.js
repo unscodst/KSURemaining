@@ -16,12 +16,17 @@ document.getElementById('tut').addEventListener("click", tutorial);
 
 
 
-chrome.runtime.onMessage.addListener(
-    function (request, sender, sendResponse) {
-        console.log(sender.tab ?
-                    "from a content script:" + sender.tab.url :
-                    "from the extension");
-        if (request.greeting == "hello")
-            sendResponse({farewell: "goodbye"});
-    }
-);
+
+
+var options = {
+    type: "basic",
+    title: "KSU Remaining",
+    message: "Class: " + "Seats Remaining: ",
+    iconUrl: "icon.png"
+};
+
+chrome.notifications.create(options, callback);
+function callback() {
+    console.log('Notification test');
+}
+
