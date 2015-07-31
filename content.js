@@ -28,3 +28,4 @@ function className() {
 console.log(className());
 
 
+var refreshClass = setInterval(className, 2000);
