@@ -33,24 +33,3 @@ function callback() {
 }
 
 
-
-/*chrome.runtime.onMessage.addListener(function(tm, _, sr) {
-    if (tm.testResponse) {
-        sr("This is a test message appended");
-    }
-});*/
-
-
-
-console.log("I am background.js");
-
-function hello() {
-  console.log("hello");
-  chrome.runtime.sendMessage({greeting: "hello"},
-    function(response) {
-      console.log("hello sent");
-      document.getElementById("div").textContent = response.msg;
-    });
-}
-
-document.getElementById("btn").addEventListener("click", hello);

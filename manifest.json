@@ -3,7 +3,7 @@
 
     "name": "KSU Remaining",
     "description": "This extension notifies you when seats become available in classes you need to take",
-    "version": "1.025",
+    "version": "1.030",
 
     "browser_action": {
         "default_icon": "icon.png",
