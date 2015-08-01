@@ -6,7 +6,9 @@ If a class has seats remaining you will be notified to give you an opportunity t
 Install
 
 1) Download .zip
+
 2) Extract "KSURemaining-master" folder to your preferred location
+
 3) Open Chrome
 4) On the Right side of Chrome click the Three Bars to open the settings menu
 5) Select "More Tools" > "Extensions"
