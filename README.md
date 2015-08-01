@@ -1,5 +1,6 @@
 # KSURemaining
-An extension that allows you to see the remaining seats available for classes at Kent State University. If a class has seats remaining you will be notified to give you an opportunity to register.
+An extension that allows you to see the remaining seats available for classes at Kent State University. 
+If a class has seats remaining you will be notified to give you an opportunity to register.
 
 
 Install
