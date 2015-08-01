@@ -21,11 +21,11 @@ Allow Text/Email/Notification to happen
 
 
 
-Install
+##Install
 
-1) Download .zip
+1. Download .zip
 
-2) Extract "KSURemaining-master" folder to your preferred location
+2. Extract "KSURemaining-master" folder to your preferred location
 
 3) Open Chrome
 
