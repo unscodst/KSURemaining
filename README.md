@@ -7,14 +7,15 @@ If a class has seats remaining you will be notified to give you an opportunity t
 
 
 TODO
--Get data to Message Pass to ksu.html, This will eliminate the need look at the console. 
+
+- Get data to Message Pass to ksu.html, This will eliminate the need look at the console. 
 I think this is literally the last front end thing I need.
 
 Backend:
--Allow users to store class CRN's to avoid input every time
--Repeatedly Refresh/Pull Data from webpage
--Message Pass consistently updated data to ksu.html
--Allow Text/Email/Notification to happen 
+- Allow users to store class CRN's to avoid input every time
+- Repeatedly Refresh/Pull Data from webpage
+- Message Pass consistently updated data to ksu.html
+- Allow Text/Email/Notification to happen 
  - if {
     seats remaining is <=5 or user set number (for friends)
     or >= 1 (assuming a class was full and now has 1++ spots open)
